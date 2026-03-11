@@ -58,6 +58,7 @@ class _DetailsState extends State<Details> {
               Text("Harga : " + makan.price.toString()),
               Text("Kalori : "+ makan.calories.toString()),
               Text("Komposisi : " + makan.ingredients.join(", ")),
+              Text("Recipe URL : " + makan.recipeUrl),
             ],),
           ),
           Container(
